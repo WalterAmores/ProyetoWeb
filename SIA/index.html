@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+	<meta charset="UTF-8">
+	<title>Sistema de Inteligencia Anticorrupción</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="cabecera">
+		<div id="CDMX">
+			<img src="img/angel.png" height="150" alt="angel_logo" id="angel">
+			<img src="img/LOGO_CDMX_NEGRO.png" height="250" alt="CDMX_LOGO" >
+		</div>
+		<div id="SIA">
+			<img src="img/pc.png"  height="150" alt="pc_logo" id="pc">
+			<div id="pSIA">
+				<p>
+					Sistema de Inteligencia Anticorrupción
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="navegacion">
+		<a href="index.html">Inicio</a>
+		<a href="includes/conexion.php">Conocenos</a>
+		<a href="includes/cerrarConexion.php">Preguntas Frecuentes</a>
+		<a href="usuario.html">Contacto</a>
+	</div>
+	<div id="video">
+		<iframe height="400"
+			src="https://www.youtube.com/embed/cmt48AQu1EU" frameborder="1" allowfullscreen>
+		</iframe>
+	</div>
+	<div id="acceso">
+		<form action="acceso.php" method="POST">
+			<h2>Acceso</h2>
+			<input type="text" placeholder="CURP" name="usuario"><br><br>
+			<input type="password" placeholder="INE/IFE" name="password"><br><br>
+			<input type="submit" value="Entrar" id="enviar">
+		</form>
+		<div id="adicional">
+			<h2>Información</h2>
+			<ul>
+				<li>Catálogo de tramites y servicios</li>
+				<li>Proveedor</li>
+				<li>Denuncias</li>
+			</ul>
+		</div>
+	</div>
+	<div id="pie">
+		<p>Información relacionada a la corrupción en tramites y servicios públicos</p>
+	</div>
+</body>
+</html>
