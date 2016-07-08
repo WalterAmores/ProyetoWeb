@@ -1,0 +1,170 @@
+body{
+	margin: 0;
+	padding:0;
+
+}
+/****************CABECERA******************/
+#cabecera{
+	/*background-color: sandybrown;*/
+	background-color:LightYellow;
+	float: left;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	box-sizing:border-box;
+	padding: 1%;
+}
+#CDMX{
+	/*background-color:LightYellow;*/
+	float: left;
+	width: 50%;
+	box-sizing:border-box;
+
+}
+#CDMX img{
+	/*background-color:LightYellow;*/
+	box-sizing:border-box;
+	float: left;
+	width: 50%;
+}
+#angel{
+	margin-top: 9%;
+}
+#SIA{
+	/*background-color: gray;*/
+	padding:2%;
+	float: left;
+	width: 50%;
+	box-sizing:border-box;
+	
+}
+#SIA img{
+	/*background-color:LightYellow;*/
+	float: left;
+	width: 50%;
+	box-sizing:border-box;
+	margin-top: 4%;
+	
+}
+#SIA div{
+	float: left;
+	width: 50%;
+	box-sizing:border-box;
+	
+}
+#pSIA{
+	/*background-color: yellow;*/
+	box-sizing:border-box;
+	padding: 2%;
+	font-size: 200%;
+	text-align: center;
+	font-weight: bold;
+}
+/****************NAVEGACIÓN******************/
+#navegacion{
+	background-color:Brown;
+	float: left;
+	width: 90%;
+	margin: 0 5%;
+	box-sizing:border-box;
+	padding: 1%;
+}
+#navegacion a{
+	float: left;
+	text-decoration: none;
+	color: white;
+	width: 25%;
+	box-sizing:border-box;
+	text-align: center;
+
+}
+/****************divs******************/
+.divs{
+	float: left;
+	width:90%;
+	margin: 0% 5%;
+	margin-top: 5%;
+	background-color:#faea73;
+	padding: 2%;
+	box-sizing:border-box;
+	font-size: 20px;
+}
+.boton{
+	float: left;
+	width:90%;
+	margin: 0% 5%;
+	background-color:#faea73;
+	padding: 2%;
+	box-sizing:border-box;
+	font-size: 20px;
+}
+#siguiente{
+	float: right;
+}
+#atras{
+	float: left;
+}
+
+/****************PIE******************/
+#pie{
+	background-color:Brown;
+	font-size: 20px;
+	color: white;
+	float: left;
+	width: 90%;
+	margin:0 5%;
+	margin-top:5%;
+	padding: 2%;
+	box-sizing:border-box;
+}
+
+@media (min-width: 360px) {
+	#cabecera{
+		background-color: skyblue;
+	}
+	#CDMX{
+		width: 100%;
+	}
+	#angel{
+		margin-top: 12%;
+	}
+	#SIA{
+		width: 25%;
+		display: none;
+	}
+	
+}
+
+@media (min-width: 768px) {
+	#cabecera{
+		background-color: sandybrown;
+	}
+	#CDMX{
+		width: 50%;
+	}
+	#angel{
+		margin-top: 13%;
+    }
+	#SIA{
+		width: 50%;
+		display: block;
+	}
+	
+}
+@media (min-width: 1200px) {
+	#cabecera{
+		/*background-color: Beige;*/
+		background-color:LightYellow;
+	}
+	#CDMX{
+		width: 50%;
+	}
+	#angel{
+		margin-top: 9%;
+	}
+	#SIA{
+		width: 50%;
+		display: block;
+	}
+
+}
