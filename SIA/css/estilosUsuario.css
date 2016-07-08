@@ -9,6 +9,32 @@
 	margin-top: 5%;
 	font-size: 20px;
 }
+
+/****************TITULOS*****************/
+#titulos{
+	float: left;
+	width: 100%;
+	box-sizing:border-box;
+
+
+}
+#tituloUsuario{
+	float: left;
+	width: 50%;
+	box-sizing:border-box;
+	text-align: center;
+	color: #280904;
+
+}
+#tituloMapa{
+	float: left;
+	width: 50%;
+	box-sizing:border-box;
+	text-align: center;
+	color: #280904;
+}
+
+
 /****************USUARIO*****************/
 #usuario{
 	/*background-color: #EAC388;*/
@@ -51,13 +77,27 @@
 	background-color: #F1F1C1;
 	float: left;
 	box-sizing:border-box;
-	padding-left: 2%;
+	padding-left: 15%;
 	width: 50%;
 }
 #mapa svg{
 	float: left;
 	width: 100%;
 	box-sizing:border-box;
+	text-align: center;
+}
+/****************INFODELEGACION*****************/
+#infoDelegacion{
+	float: left;
+	width: 100%;
+	box-sizing:border-box;
+	padding: 1%;
+	margin-top: 2%;
+	background-color: pink;
+	display: none;
+}
+#pGustavo,#pAzcapotzalco{
+	display: none;
 }
 /****************SeccionDescuento*****************/
 #seccionDescuento{
